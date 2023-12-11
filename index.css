@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+
+@font-face {
+    src: url("Font/digital-7.ttf");
+    font-family: score-board-number-font;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home {
+    
+    margin-right: 50px;
+}
+
+.guest {
+    
+    margin-left: 50px;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-weight: bold;
+    width: 149px;
+    height: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px; 
+    
+}
+
+h2 {
+    height: 120px;
+    width: 155px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #F94F6D;
+    background: #121212;
+    border-radius: 10px;
+    font-family: score-board-number-font;
+    margin-bottom: 26px;
+} 
+
+
+
+button {
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8; 
+    margin: 0 5px 0 0;
+    
+}
